@@ -1,0 +1,23 @@
+-rw-r--r--    1 raph     technola   513042 Apr 25  2001 3.1.9-alge.anart.no/libmikmod-3.1.9.tar.gz
+-rw-r--r--    1 raph     technola   513042 Apr 17  2001 3.1.9-ftp.cz.freebsd.org/libmikmod-3.1.9.tar.gz
+-rw-r--r--    1 raph     technola   513042 Oct 27 00:50 3.1.9-lunar-linux.com/libmikmod-3.1.9.tar.gz
+-rw-r--r--    1 raph     technola   513062 Apr  3  2003 3.1.9-www.online-miror.org/libmikmod-3.1.9.tar.gz
+raph@midgar> md5sum 3.1.9-lunar-linux.com/libmikmod-3.1.9.tar.gz                    8:14:15
+0d50670d34653490a0c87a9fa5cc804a  3.1.9-lunar-linux.com/libmikmod-3.1.9.tar.gz
+raph@midgar> md5sum 3.1.9-ftp.cz.freebsd.org/libmikmod-3.1.9.tar.gz                 8:14:40
+0d50670d34653490a0c87a9fa5cc804a  3.1.9-ftp.cz.freebsd.org/libmikmod-3.1.9.tar.gz
+raph@midgar> md5sum 3.1.9-lunar-linux.com/libmikmod-3.1.9.tar.gz                    8:14:49
+0d50670d34653490a0c87a9fa5cc804a  3.1.9-lunar-linux.com/libmikmod-3.1.9.tar.gz
+raph@midgar> md5sum 3.1.9-alge.anart.no/libmikmod-3.1.9.tar.gz                      8:14:59
+0d50670d34653490a0c87a9fa5cc804a  3.1.9-alge.anart.no/libmikmod-3.1.9.tar.gz
+raph@midgar> md5sum 3.1.9-www.online-miror.org/libmikmod-3.1.9.tar.gz               8:15:09
+00ca4a9d8fae3d6ac3025c91d13d9a16  3.1.9-www.online-miror.org/libmikmod-3.1.9.tar.gz
+
+raph@midgar> md5sum ../mikmod-3.2.0.tar.gz                                          8:17:33
+bc29ac3d0b577b16b526c93d7df125a8  ../mikmod-3.2.0.tar.gz
+raph@midgar> md5sum mikmod-3.2.0.tar.gz                                             8:17:43
+bc29ac3d0b577b16b526c93d7df125a8  mikmod-3.2.0.tar.gz
+raph@midgar> md5sum ../mikmod-3.2.1.tar.gz                                          8:17:51
+a60c3221ca48aed301f4b62b4741eebe  ../mikmod-3.2.1.tar.gz
+raph@midgar> md5sum mikmod-3.2.1.tar.gz                                             8:17:54
+a60c3221ca48aed301f4b62b4741eebe  mikmod-3.2.1.tar.gz
