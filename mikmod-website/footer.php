@@ -1,8 +1,8 @@
 <hr>
-Page by Rapha&euml;l Ass&eacute;nat 
-<a href="mailto:raph@raphnet.net">&lt;raph@raphnet.net&gt;</a>. Please
+Page by <a href="http://www.shlomifish.org/">Shlomi Fish</a>
+<a href="mailto:shlomif@shlomifish.org">shlomif@shlomifish.org</a>. Please
 send me any comments, suggestions, bugs (and hopefully fixes ;). Please 
-note that I understand french, and english.<br>
+note that I understand English and Hebrew.<br>
 <br>
 Link to us!: 
 <img src="images/mikmod_icon.png" alt="mikmod">
@@ -23,6 +23,4 @@ Link to us!:
 		<img src="vbanner88.gif" alt="vorc" width=88 height=31 border=0>
 	</a>
 </p>
-
-
 
