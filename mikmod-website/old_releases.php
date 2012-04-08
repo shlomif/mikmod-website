@@ -65,6 +65,20 @@ Back to MikMod Homepage
 </tr>
 <tr>
 	<td>
+	<a href="files/libmikmod-3.2.0-beta2.tar.gz">libmikmod-3.2.0-beta2.tar.gz</a><br>
+	<a href="files/libmikmod-3.2.0-beta2.tar.bz2">libmikmod-3.2.0-beta2.tar.bz2</a><br>
+	<a href="files/libmikmod-3.2.0-beta2.zip">libmikmod-3.2.0-beta2.zip</a>
+	</td>
+	<td>Feb 20 2004</td>
+	<td>Second beta of version of libmikmod. This release includes a new AIFF 
+	disk writer, better MacOS X support, new macintosh project files for 
+	Codewarrior 5/6 and Apple's MPW, and fixes for compilation under Solaris.</td>
+	<td>
+	743k<br>
+	534k<br>
+	893k
+	</td>
+	<td>
 	<a href="files/libmikmod-3.2.0-beta1.tar.gz">libmikmod-3.2.0-beta1.tar.gz</a><br>
 	<a href="files/libmikmod-3.2.0-beta1.tar.bz2">libmikmod-3.2.0-beta1.tar.bz2</a><br>
 	<a href="files/libmikmod-3.2.0-beta1.zip">libmikmod-3.2.0-beta1.zip</a>

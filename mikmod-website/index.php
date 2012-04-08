@@ -222,20 +222,18 @@ For previous releases, visit the
 	<td colspan=4><b>Library (libmikmod)</b></td>
 </tr>
 <tr>
-	<td>
-	<a href="files/libmikmod-3.2.0-beta2.tar.gz">libmikmod-3.2.0-beta2.tar.gz</a><br>
-	<a href="files/libmikmod-3.2.0-beta2.tar.bz2">libmikmod-3.2.0-beta2.tar.bz2</a><br>
-	<a href="files/libmikmod-3.2.0-beta2.zip">libmikmod-3.2.0-beta2.zip</a>
-	</td>
-	<td>Feb 20 2004</td>
-	<td>Second beta of version of libmikmod. This release includes a new AIFF 
-	disk writer, better MacOS X support, new macintosh project files for 
-	Codewarrior 5/6 and Apple's MPW, and fixes for compilation under Solaris.</td>
-	<td>
-	743k<br>
-	534k<br>
-	893k
-	</td>
+    <td>
+    <a href="files/libmikmod-3.2.0b3.tar.gz">libmikmod-3.2.0b3.tar.gz</a> 
+    </td>
+	<td>Apr 08 2012</td>
+    <td>Third beta of version of libmikmod - applied many downstream patches
+    for various security bugs (and other bugs), and some other changes.</td>
+    <td>Checksums:<br/>
+<pre>
+22aa49a1776e691a96f14ec8f5429e6d  files/libmikmod-3.2.0b3.tar.gz - MD5
+3e2e04caff8726d5ceca0d8a5a1a43528cc627f935e92291aded1d87603ade4f - SHA-256.
+</pre>
+</td>
 </tr>
 <tr>
 	<td>
