@@ -50,13 +50,15 @@ such as Unix, Macintosh, BeOS, and Java(!!)
 <p>
 Mikmod main authors are Jean-Paul Mikkers (MikMak), Jake Stine (Air
 Richter) and Frank Loemker. Steve McIntyre was the first Unix maintainer,
-followed by Peter Amstutz and finally Miodrag Vallat.
+followed by Peter Amstutz, Miodrag Vallat and finally 
+Rapha&euml;l Ass&eacute;nat.
 </p>
 <p>
-Unfortunately, since Miodrag Vallat does not have enough free time to work on
-mikmod theses days, releases somewhat came to an halt. This is why I 
-(Rapha&euml;l Ass&eacute;nat) decided to work on libmikmod/mikmod to add 
-new features and bring the project further.<br>
+Unfortunately, since Rapha&euml;l Ass&eacute;nat.
+does not have enough free time to work on
+MikMod theses days, releases somewhat came to an halt. This is why he handed 
+the baton to me (Shlomi Fish) in order to add 
+new features, fix bugs and bring the project further.<br>
 </p>
 <?php block_after(); ?>
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
@@ -67,6 +69,16 @@ new features and bring the project further.<br>
 <a name="news"></a>
 <h2>News</h2>
 <?php block_before(); ?>
+<p>
+<b>Sun Apr 08 2012:</b>
+libmikmod and mikmod development now has been resumed by Shlomi Fish. The
+sources were moved to
+<a href="ssh://shlomif@mikmod.hg.sourceforge.net/hgroot/mikmod/mikmod">a
+Mercurial repository hosted on SourceForge.net</a> and the sources of these
+site are now maintained in <a href="https://bitbucket.org/shlomif/mikmod-website">a different repository</a>. libmikmod-3.2.0-beta3 was released (see below
+for download) with many fixes and improvements.
+</p>
+
 <p>
 <a href="http://www.sourceforge.net">
 <img src="sflogo.png" align="right" alt="sourceforge logo"></a>
