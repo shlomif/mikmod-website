@@ -74,7 +74,7 @@ new features, fix bugs and bring the project further.<br>
 libmikmod and mikmod development now has been resumed by Shlomi Fish. The
 sources were moved to
 <a href="ssh://shlomif@mikmod.hg.sourceforge.net/hgroot/mikmod/mikmod">a
-Mercurial repository hosted on SourceForge.net</a> and the sources of these
+Mercurial repository hosted on SourceForge.net</a> and the sources of this
 site are now maintained in <a href="https://bitbucket.org/shlomif/mikmod-website">a different repository</a>. libmikmod-3.2.0-beta3 was released (see below
 for download) with many fixes and improvements.
 </p>
