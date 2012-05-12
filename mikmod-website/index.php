@@ -69,6 +69,18 @@ new features, fix bugs and bring the project further.<br>
 <a name="news"></a>
 <h2>News</h2>
 <?php block_before(); ?>
+
+<p>
+<b>Sat May 12 2012:</b>
+libmikmod-3.2.0-beta4 was released. This release contains a better driver
+for <a href="http://www.alsa-project.org/">ALSA</a> (the Advanced Linux
+Sound Architecture) which works with recent versions of its API (though at
+the moment, one cannot share the soundcard with other programs - this is under
+work), and some cleanup patches by Stéphan Kochen for converting <tt>char *</tt>
+to <tt>const char *</tt> and for fixing compilation on Microsoft Visual
+C++ and other compilers.
+</p>
+
 <p>
 <b>Sun Apr 08 2012:</b>
 libmikmod and mikmod development now has been resumed by Shlomi Fish. The
@@ -235,15 +247,15 @@ For previous releases, visit the
 </tr>
 <tr>
     <td>
-    <a href="files/libmikmod-3.2.0b3.tar.gz">libmikmod-3.2.0b3.tar.gz</a> 
+    <a href="files/libmikmod-3.2.0b4.tar.gz">libmikmod-3.2.0b4.tar.gz</a> 
     </td>
-	<td>Apr 08 2012</td>
-    <td>Third beta of version of libmikmod - applied many downstream patches
-    for various security bugs (and other bugs), and some other changes.</td>
+	<td>May 12 2012</td>
+    <td>Fourth beta of version 3.2.0 of libmikmod - includes an updated ALSA
+    driver, and some fixes for compilation errors and warnings.</td>
     <td>Checksums:<br/>
 <pre>
-22aa49a1776e691a96f14ec8f5429e6d  files/libmikmod-3.2.0b3.tar.gz - MD5
-3e2e04caff8726d5ceca0d8a5a1a43528cc627f935e92291aded1d87603ade4f - SHA-256.
+81cfc7565a3cc75b42da5b3505fbd9ae - MD5
+da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 </pre>
 </td>
 </tr>

@@ -65,6 +65,15 @@ Back to MikMod Homepage
 </tr>
 <tr>
 	<td>
+	<a href="files/libmikmod-3.2.0b3.tar.gz">libmikmod-3.2.0b3.tar.gz</a><br>
+	<td>Apr 08 2012</td>
+	<td>Third beta of version 3.2.0 of libmikmod. Applied many downstream patches
+    for various security bugs (and other bugs), and some other changes.</td>
+	<td>
+    </td>
+</tr>
+<tr>
+	<td>
 	<a href="files/libmikmod-3.2.0-beta2.tar.gz">libmikmod-3.2.0-beta2.tar.gz</a><br>
 	<a href="files/libmikmod-3.2.0-beta2.tar.bz2">libmikmod-3.2.0-beta2.tar.bz2</a><br>
 	<a href="files/libmikmod-3.2.0-beta2.zip">libmikmod-3.2.0-beta2.zip</a>
