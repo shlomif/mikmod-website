@@ -289,16 +289,24 @@ All current and previous releases can also be downloaded via ftp:<br>
 <?php block_after(); ?>
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
-<a name="cvs"></a>
-<h2>CVS</h2>
+<h2 id="cvs">Version Control</h2>
 <?php block_before(); ?>
-Anonymous CVS access is available for both libmikmod and mikmod.<br>
-<br>
-libmikmod CVS is available from sourceforge:<br>
+<p>
+libmikmod and mikmod's sources are available from its 
+<a href="http://sourceforge.net/scm/?type=hg&group_id=40531">Mercurial
+repository</a>. In order to checkout the sources by cloning the repository,
+use the following command:
+</p>
+
 <pre>
-cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/mikmod login
-cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/mikmod co -P libmikmod
+hg clone http://mikmod.hg.sourceforge.net:8000/hgroot/mikmod/mikmod (read-only)
 </pre>
+
+<p>
+The sources for this site are available on
+<a href="https://bitbucket.org/shlomif/mikmod-website">a different Mercurial 
+repository</a> hosted at bitbucket.org.
+</p>
 
 <?php block_after(); ?>
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
