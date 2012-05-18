@@ -11,7 +11,7 @@ xm">
 </head>
 <body bgcolor="#efefdf">
 
-<?php require("blocks.php") ?>
+[% PROCESS "blocks.tt2" %]
 <img src="mikmod.png" alt="mikmod logo" align="left">
 <h1>MikMod homepage</h1>
 <br clear="all">
@@ -41,7 +41,7 @@ xm">
 
 <a name="what"></a>
 <h2>What is MikMod?</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 Mikmod is a module player and library supporting many formats, including mod, s3m, it, and
 xm. Originally a player for MS-DOS, MikMod has been ported to other platforms,
@@ -60,7 +60,7 @@ MikMod theses days, releases somewhat came to an halt. This is why he handed
 the baton to me (Shlomi Fish) in order to add 
 new features, fix bugs and bring the project further.<br>
 </p>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
@@ -68,7 +68,7 @@ new features, fix bugs and bring the project further.<br>
 
 <a name="news"></a>
 <h2>News</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 
 <p>
 <b>Sat May 12 2012:</b>
@@ -125,13 +125,13 @@ libMikMod and MikMod releases can now be downloaded via ftp, and for those who l
 to live on the edge, anonymous cvs access is now available. There are a few unreleased changes in CVS already.
 </p>
 
-<?php block_after(); ?>
+[% PROCESS block_after %]
 For older news, see the <a href="old_news.php">older news page</a>.<br>
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 <a name="features"></a>
 <h2>Features</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <ul>
 	<li>Support for the following modules formats:<br> 
 	<b>669</b> (Composer 669, Unis 669), <b>AMF</b> (DSMI Advanced Module Format),
@@ -152,7 +152,7 @@ tar.gz and tar.bz2</li>
 	<li>Works on most Unixes and win32</li>
 </ul>
 
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
@@ -161,7 +161,7 @@ tar.gz and tar.bz2</li>
 
 <a name="screenshots"></a>
 <h2>Screenshots</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 Here are screenshots of the dynamic sample and instruments panels, volume bars panel, 
 file selector and the theme editor added in mikmod 3.2.2:<br>
@@ -178,25 +178,25 @@ Here is a screenshot of the new color interface in version 3.2.0:<br>
 <img src="mikmod-3.2.0-thumb.png" width=80 height=57 alt="screenshot">
 </a>
 </p>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 <a name="license"></a>
 <h2>License</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 libmikmod is released under the terms of the 
 <a href="http://www.gnu.org/copyleft/lesser.html">GNU Lesser General Public License (LGPL).</a><br>
 mikmod is released under the terms of the 
 <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License (GPL).</a><br>
 </p>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
 <a name="files"></a>
 <h2>Files</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 Releases here are source only.<br> 
 For binary releases, visit the 
@@ -286,11 +286,11 @@ da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 All current and previous releases can also be downloaded via ftp:<br>
 <a href="ftp://ftp.raphnet.net">ftp.raphnet.net</a>
 <br>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 <h2 id="cvs">Version Control</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 libmikmod and mikmod's sources are available from its 
 <a href="http://sourceforge.net/scm/?type=hg&group_id=40531">Mercurial
@@ -308,13 +308,13 @@ The sources for this site are available on
 repository</a> hosted at bitbucket.org.
 </p>
 
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
 <a name="docs"></a>
 <h2>Documentation</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 Online documentation. This is the same doc as
 found inside the docs/ subdir of libmikmod releases.<br>
 <br>
@@ -325,13 +325,13 @@ And here is the latest doc in pdf format:
 <br>
 
 
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
 <a name="list"></a>
 <h2>Mailing list</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 There is a now a mailing list available for those who would like
 to be notified when there are new (lib)mikmod releases available.<br>
@@ -346,7 +346,7 @@ This is a very low volume mailing list where users are *not* allowed
 to post. I will probably create more mailing lists, such as mikmod-user 
 and mikmod-devel, eventually.
 </p>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
@@ -355,7 +355,7 @@ and mikmod-devel, eventually.
 
 <a name="tools"></a>
 <h2>Tools</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 Here are two bash scripts to download random songs from 
 <a href="http://www.modarchive.com">www.modarchive.com</a> (using their <i>Random Song</i> url), 
@@ -399,7 +399,7 @@ To stop them, do this:<br>
 <p>
 And then exit mikmod.
 </p>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
@@ -407,7 +407,7 @@ And then exit mikmod.
 
 <a name="ports"></a>
 <h2>Ports and other versions</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 Mikmod for the Macintosh:<br>
 <a href="http://www.algonet.se/~afb/mikmod/">
@@ -443,13 +443,13 @@ http://scripts.one.pl/tclmod</a>
 </p>
 
 
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
 <a name="music"></a>
 <h2>Where to get music</h2>
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 <a href="http://www.modarchive.com">www.modarchive.com</a> Over 10 GB in more
 than 28k compressed files.<br>
@@ -459,14 +459,14 @@ than 28k compressed files.<br>
 If you appreciate game music as much as I do, you will be pleased with all the
 good old game tunes available on this website.
 </p>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 <p align="right"><a href="http://mikmod.raphnet.net/">top</a></p>
 
 
 <br>
 <br>
 
-<?php require("footer.php"); ?>
+[% PROCESS "footer.tt2" %]
 
 </body>
 </html>

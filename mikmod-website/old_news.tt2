@@ -18,10 +18,10 @@ Back to MikMod Homepage
 </a>
 </p>
 
-<?php require("blocks.php") ?>
+[% PROCESS "blocks.tt2" %]
 
 
-<?php block_before(); ?>
+[% PROCESS block_before %]
 <p>
 <b>Tue Jun 3:</b>
 I have released a small patch for libmikmod-3.1.11 (which now becomes libmikmod-3.1.11-a). 
@@ -130,7 +130,7 @@ files for more information.</p>
 <p><b>Fri Oct 4:</b>
 I have released my new version of the player.
 </p>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 
 <p align="right">
 <a href="http://mikmod.raphnet.net">
@@ -138,7 +138,7 @@ Back to MikMod Homepage
 </a>
 </p>
 
-<?php require("footer.php"); ?>
+[% PROCESS "footer.tt2" %]
 
 </body>
 </html>

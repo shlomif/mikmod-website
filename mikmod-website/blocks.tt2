@@ -1,0 +1,11 @@
+[% BLOCK block_before %]
+<table border=0 bgcolor="#ffffef" cellspacing=0 width="100%">
+<tr>
+<td>
+[% END %]
+
+[% BLOCK block_after %]
+</td>
+</tr>
+</table>
+[% END %]

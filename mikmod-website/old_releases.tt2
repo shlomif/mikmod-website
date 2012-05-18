@@ -18,10 +18,10 @@ Back to MikMod Homepage
 </a>
 </p>
 
-<?php require("blocks.php") ?>
+[% PROCESS "blocks.tt2" %]
 
 
-<?php block_before(); ?>
+[% PROCESS block_before %]
 
 <table border=1>
 <tr>
@@ -148,7 +148,7 @@ eb66900fac76e9cc280a1c85efec3733  mikmod-3.1.6-a.tar.gz
 71d8142ae3ae27034535913e906b1384  mikmod-3.1.6.tar.gz
 a096e8258410459189ff535111887ff1  mikmod-3.0.3.tar.gz
 </pre>
-<?php block_after(); ?>
+[% PROCESS block_after %]
 
 <p align="right">
 <a href="http://mikmod.raphnet.net">
@@ -156,7 +156,7 @@ Back to MikMod Homepage
 </a>
 </p>
 
-<?php require("footer.php"); ?>
+[% PROCESS "footer.tt2" %]
 
 </body>
 </html>

@@ -14,6 +14,7 @@ my $template = Template->new(
     {
         INCLUDE_PATH => ".",
         POST_CHOMP => 1,
+        RELATIVE => 1,
     }
 );
 
@@ -32,7 +33,7 @@ while (my $result = $tree->next_obj())
         else
         {
             mkpath(File::Spec->catdir(
-                    File::Spec->curdir(), "dest", $result->full_components()
+                    File::Spec->curdir(), "dest", @{$result->full_components()}
                 )
             );
         }
@@ -44,14 +45,15 @@ while (my $result = $tree->next_obj())
         {
             $template->process($result->path(), $vars, 
                 File::Spec->catfile(File::Spec->curdir(), "dest",
-                    $result->dir_components(), $basename)
+                    @{$result->dir_components()}, $basename)
             )
+                or die $template->error();
         }
         elsif ($basename !~ /~\z/)
         {
             copy($result->path,
                 File::Spec->catfile(File::Spec->curdir(), "dest",
-                    $result->dir_components(), $basename),
+                    @{$result->dir_components()}, $basename),
             );
         }
     }

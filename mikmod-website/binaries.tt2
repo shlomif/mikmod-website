@@ -34,7 +34,7 @@ Back to MikMod Homepage
 </p>
 
 
-<?php require("footer.php"); ?>
+[% PROCESS "footer.tt2" %]
 
 </body>
 </html>
