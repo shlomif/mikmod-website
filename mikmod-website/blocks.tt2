@@ -1,5 +1,5 @@
 [% BLOCK block_before %]
-<table border=0 bgcolor="#ffffef" cellspacing=0 width="100%">
+<table border="0" class="wrap" summary="wrapper table">
 <tr>
 <td>
 [% END %]
