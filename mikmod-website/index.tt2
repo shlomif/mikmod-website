@@ -71,10 +71,7 @@ the baton to me (Shlomi Fish) in order to add
 new features, fix bugs and bring the project further.<br />
 </p>
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
-
-
-
+[% PROCESS link_to_top %]
 
 <h2 id="news">News</h2>
 [% PROCESS block_before %]
@@ -147,7 +144,7 @@ to live on the edge, anonymous cvs access is now available. There are a few unre
 
 [% PROCESS block_after %]
 For older news, see the <a href="old_news.php">older news page</a>.<br />
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 <h2 id="features">Features</h2>
 [% PROCESS block_before %]
@@ -172,7 +169,7 @@ tar.gz and tar.bz2</li>
 </ul>
 
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 
 
@@ -197,7 +194,7 @@ Here is a screenshot of the new color interface in version 3.2.0:<br />
 </a>
 </p>
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 <h2 id="license">License</h2>
 [% PROCESS block_before %]
@@ -208,7 +205,7 @@ mikmod is released under the terms of the
 <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License (GPL).</a><br />
 </p>
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 
 <h2 id="files">Files</h2>
@@ -302,7 +299,7 @@ All current and previous releases can also be downloaded via ftp:<br />
 <a href="ftp://ftp.raphnet.net">ftp.raphnet.net</a>
 <br />
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 <h2 id="cvs">Version Control</h2>
 [% PROCESS block_before %]
@@ -324,7 +321,7 @@ repository</a> hosted at bitbucket.org.
 </p>
 
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 
 <h2 id="docs">Documentation</h2>
@@ -340,7 +337,7 @@ And here is the latest doc in pdf format:
 
 
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 
 <h2 id="list">Mailing list</h2>
@@ -360,7 +357,7 @@ to post. I will probably create more mailing lists, such as mikmod-user
 and mikmod-devel, eventually.
 </p>
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 
 
@@ -412,10 +409,7 @@ To stop them, do this:<br />
 And then exit mikmod.
 </p>
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
-
-
-
+[% PROCESS link_to_top %]
 
 <h2 id="ports">Ports and other versions</h2>
 [% PROCESS block_before %]
@@ -455,7 +449,7 @@ http://scripts.one.pl/tclmod</a>
 
 
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
+[% PROCESS link_to_top %]
 
 
 <h2 id="music">Where to get music</h2>
@@ -470,8 +464,7 @@ If you appreciate game music as much as I do, you will be pleased with all the
 good old game tunes available on this website.
 </p>
 [% PROCESS block_after %]
-<p class="to_top"><a href="http://mikmod.raphnet.net/">top</a></p>
-
+[% PROCESS link_to_top %]
 
 <br />
 <br />

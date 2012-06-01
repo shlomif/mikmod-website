@@ -1,25 +1,29 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE
+    html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
 <head>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<META NAME="AUTHOR" CONTENT="Raphael Assenat">
-<META NAME="keywords" CONTENT="MikMod, libMikmod, mikmod, libmikmod, music,
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Raphael Assenat" />
+<meta name="keywords" content="MikMod, libMikmod, mikmod, libmikmod, music,
 player, unix, linux, 669, amf, dsm, far, gdb, imf, it, med, mod, mtm, s3m, stm, stx, ult,
-xm">
-<META NAME="description" CONTENT="MikMod Homepage">
+xm" />
+<meta name="description" content="MikMod Homepage" />
+<style type="text/css">
+    body { background-color: #efefef; }
+    .logo { text-align: left; }
+    .wrap { background-color: #ffffef; }
+    .to_top, .r { text-align: right; }
+</style>
 <title>MikMod homepage</title>
 </head>
-<body bgcolor="#efefdf">
+<body>
 <h1>Mikmod old news</h1>
-
-<p align="right">
-<a href="http://mikmod.raphnet.net">
-Back to MikMod Homepage
-</a>
-</p>
 
 [% PROCESS "blocks.tt2" %]
 
+[% PROCESS link_to_top %]
 
 [% PROCESS block_before %]
 <p>
@@ -27,7 +31,7 @@ Back to MikMod Homepage
 I have released a small patch for libmikmod-3.1.11 (which now becomes libmikmod-3.1.11-a). 
 While most of my work and attention goes on the 3.2.x series, I still receive
 occasional bug reports and patchs for the 3.1.11 version. There are not enough
-changes to make a full release, but many people may find this patch useful.<br>
+changes to make a full release, but many people may find this patch useful.<br />
 </p>
 BUGFIXES
 <ul>
@@ -36,17 +40,17 @@ BUGFIXES
 <li>config.sub and config.guess updated</li>
 </ul>
 <p>
-You may grab this patch here:<br>
-<A href="files/libmikmod-3.1.11-a.diff">libmikmod-3.1.11-a.diff</a>
-<br> 
-or in the <a href="#files">files</a> section.<br>
+You may grab this patch here:<br />
+<a href="files/libmikmod-3.1.11-a.diff">libmikmod-3.1.11-a.diff</a>
+<br /> 
+or in the <a href="#files">files</a> section.<br />
 </p>
 
 
 <p>
 <b>Sun May 2:</b>
-The logo contest, which was supposed to end on May 1st 2004, will be extended to 31 December 2004. Let's hope that I will receive more entries until then. I have only received one entry so far.<br>
-<br>
+The logo contest, which was supposed to end on May 1st 2004, will be extended to 31 December 2004. Let's hope that I will receive more entries until then. I have only received one entry so far.<br />
+<br />
 Have a look to the <a href="logo_submissions.php">Logo submissions page</a>.
 </p>
 
@@ -57,28 +61,28 @@ libmikmod documentation is now available online. Go to the
 </p>
 <p>
 <b>Mon Mar 22:</b>
-I have created a page for binary releases. No official binaries are available yet, but there are contributed packages for slackware. See the <a href="binaries.php">binary page.</a><br>
+I have created a page for binary releases. No official binaries are available yet, but there are contributed packages for slackware. See the <a href="binaries.php">binary page.</a><br />
 </p>
 <p>
-<img align="right" src="logo.png" alt="Nologo">
+<img class="r" src="logo.png" alt="Nologo" />
 <b>Wed Mar 3:</b>
 The MikMod project needs a logo, so a <b>logo contest</b> has been created. The contest will
 end on May 1st 2004. Please send your submissions by e-mail, at the address 
 <a href="mailto:mikmod@raphnet.net">mikmod@raphnet.net</a>. Logos submissions can be 
 seen on the <a href="logo_submissions.php">Logo submissions page</a>. If you like Mikmod,
-have artistic skills and free time, go ahead and do something nice!<br clear="all">
+have artistic skills and free time, go ahead and do something nice!
 </p>
 
 <p><b>Fri Feb 20:</b>
 The beta 2 release, for libmikmod 3.2.0 is out. This release includes 
 a new AIFF disk writer, better MacOS X support, new macintosh project files
 for Codewarrior 5/6 and Apple's MPW, and fixes for compilation under Solaris. 
-For more details, look inside the NEWS file included in the archive.<br>
-<br>
+For more details, look inside the NEWS file included in the archive.<br />
+<br />
 There is also a new <b>mailing list</b>, mikmod-announce@raphnet.net. You may
 subscribe if you wish to be informed about new releases. Refer to the
 <a href="#list">mailing list</a> section for more information.
-<br>
+<br />
 </p>
 <p><b>Mon Feb 2:</b>
 The beta 1 release for libmikmod 3.2.0 and mikmod 3.2.2 are now available.
@@ -131,12 +135,7 @@ files for more information.</p>
 I have released my new version of the player.
 </p>
 [% PROCESS block_after %]
-
-<p align="right">
-<a href="http://mikmod.raphnet.net">
-Back to MikMod Homepage
-</a>
-</p>
+[% PROCESS link_to_top %]
 
 [% PROCESS "footer.tt2" %]
 

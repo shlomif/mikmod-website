@@ -9,3 +9,7 @@
 </tr>
 </table>
 [% END %]
+
+[% BLOCK link_to_top %]
+<p class="to_top"><a href="http://mikmod.shlomifish.org/">Back to the MikMod Homepage</a></p>
+[% END %]
