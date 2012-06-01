@@ -71,6 +71,18 @@ new features, fix bugs and bring the project further.<br>
 [% PROCESS block_before %]
 
 <p>
+<b>Fri Jun 01 2012:</b>
+libmikmod-3.2.0 (FINAL) was released. This release allows the ALSA driver
+to play PCM streams along with other ALSA-using programs, including several
+instances of the mikmod player. There are many more improvements in comparison
+to libmikmod-3.1.11, which was the last stable release, including
+a Mac OS X CoreAudio driver, a loader for .amf modules, and support for
+recent ALSAs. Now, we are planning
+to concentrate our efforts in converting the build system to 
+<a href="http://www.cmake.org/">CMake</a> for the next libmikmod stable release.
+</p>
+
+<p>
 <b>Sat May 12 2012:</b>
 libmikmod-3.2.0-beta4 was released. This release contains a better driver
 for <a href="http://www.alsa-project.org/">ALSA</a> (the Advanced Linux
@@ -247,15 +259,14 @@ For previous releases, visit the
 </tr>
 <tr>
     <td>
-    <a href="files/libmikmod-3.2.0b4.tar.gz">libmikmod-3.2.0b4.tar.gz</a> 
+    <a href="files/libmikmod-3.2.0.tar.gz">libmikmod-3.2.0.tar.gz</a> 
     </td>
-	<td>May 12 2012</td>
-    <td>Fourth beta of version 3.2.0 of libmikmod - includes an updated ALSA
-    driver, and some fixes for compilation errors and warnings.</td>
+	<td>Jun 01 2012</td>
+    <td>Final version 3.2.0 of libmikmod.</td>
     <td>Checksums:<br/>
 <pre>
-81cfc7565a3cc75b42da5b3505fbd9ae - MD5
-da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
+96e9820d72a41fe27ff304071739696c - MD5
+734c8490bbf9b0c587920b92414dcfa3c2267838a0cdf698d5f1fb6bba8f661e - SHA-256.
 </pre>
 </td>
 </tr>

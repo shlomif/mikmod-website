@@ -64,6 +64,20 @@ Back to MikMod Homepage
 	<td colspan=4><b>Library (libmikmod)</b></td>
 </tr>
 <tr>
+    <td>
+    <a href="files/libmikmod-3.2.0b4.tar.gz">libmikmod-3.2.0b4.tar.gz</a> 
+    </td>
+    <td>May 12 2012</td>
+    <td>Fourth beta of version 3.2.0 of libmikmod - includes an updated ALSA
+    driver, and some fixes for compilation errors and warnings.</td>
+    <td>Checksums:<br/>
+<pre>
+81cfc7565a3cc75b42da5b3505fbd9ae - MD5
+da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
+</pre>
+</td>
+</tr>
+<tr>
 	<td>
 	<a href="files/libmikmod-3.2.0b3.tar.gz">libmikmod-3.2.0b3.tar.gz</a><br>
 	<td>Apr 08 2012</td>
