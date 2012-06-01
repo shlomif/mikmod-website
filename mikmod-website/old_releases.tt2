@@ -1,29 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<META NAME="AUTHOR" CONTENT="Raphael Assenat">
-<META NAME="keywords" CONTENT="MikMod, libMikmod, mikmod, libmikmod, music,
-player, unix, linux, 669, amf, dsm, far, gdb, imf, it, med, mod, mtm, s3m, stm, stx, ult,
-xm">
-<META NAME="description" CONTENT="MikMod Homepage">
-<title>MikMod homepage</title>
-</head>
-<body bgcolor="#efefdf">
+[% PROCESS "blocks.tt2" %]
+[% SET title='Old MikMod Releases' %]
+[% PROCESS start_html %]
 <h1>Mikmod old releases</h1>
 
-<p align="right">
-<a href="http://mikmod.raphnet.net">
-Back to MikMod Homepage
-</a>
-</p>
+[% PROCESS link_to_top %]
 
 [% PROCESS "blocks.tt2" %]
 
 
 [% PROCESS block_before %]
 
-<table border=1>
+<table border="1" summary="old files for download">
 <tr>
 	<th>Filename</th>
 	<th>Released</th>
@@ -31,13 +18,13 @@ Back to MikMod Homepage
 	<th>Size</th>
 </tr>
 <tr>
-	<td colspan=4><b>Player (Mikmod)</b></td>
+	<td colspan="4"><b>Player (Mikmod)</b></td>
 </tr>
 
 <tr>
 	<td><a href="files/mikmod-3.2.0.tar.gz">mikmod-3.2.0.tar.gz</a></td>
 	<td>4 Oct 2003</td>
-	<td>New color interface (use --enable-color-interface when running ./configure)<br>
+	<td>New color interface (use --enable-color-interface when running ./configure)<br />
 	 and adds a small feature to exit when the playlist ends, and bug fixes.</td>
 	<td>146k</td>
 </tr>
@@ -61,7 +48,7 @@ Back to MikMod Homepage
 </tr>
 
 <tr>
-	<td colspan=4><b>Library (libmikmod)</b></td>
+	<td colspan="4"><b>Library (libmikmod)</b></td>
 </tr>
 <tr>
     <td>
@@ -79,7 +66,8 @@ da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 </tr>
 <tr>
 	<td>
-	<a href="files/libmikmod-3.2.0b3.tar.gz">libmikmod-3.2.0b3.tar.gz</a><br>
+        <a href="files/libmikmod-3.2.0b3.tar.gz">libmikmod-3.2.0b3.tar.gz</a><br />
+    </td>
 	<td>Apr 08 2012</td>
 	<td>Third beta of version 3.2.0 of libmikmod. Applied many downstream patches
     for various security bugs (and other bugs), and some other changes.</td>
@@ -88,8 +76,8 @@ da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 </tr>
 <tr>
 	<td>
-	<a href="files/libmikmod-3.2.0-beta2.tar.gz">libmikmod-3.2.0-beta2.tar.gz</a><br>
-	<a href="files/libmikmod-3.2.0-beta2.tar.bz2">libmikmod-3.2.0-beta2.tar.bz2</a><br>
+	<a href="files/libmikmod-3.2.0-beta2.tar.gz">libmikmod-3.2.0-beta2.tar.gz</a><br />
+	<a href="files/libmikmod-3.2.0-beta2.tar.bz2">libmikmod-3.2.0-beta2.tar.bz2</a><br />
 	<a href="files/libmikmod-3.2.0-beta2.zip">libmikmod-3.2.0-beta2.zip</a>
 	</td>
 	<td>Feb 20 2004</td>
@@ -97,13 +85,13 @@ da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 	disk writer, better MacOS X support, new macintosh project files for 
 	Codewarrior 5/6 and Apple's MPW, and fixes for compilation under Solaris.</td>
 	<td>
-	743k<br>
-	534k<br>
+	743k<br />
+	534k<br />
 	893k
 	</td>
 	<td>
-	<a href="files/libmikmod-3.2.0-beta1.tar.gz">libmikmod-3.2.0-beta1.tar.gz</a><br>
-	<a href="files/libmikmod-3.2.0-beta1.tar.bz2">libmikmod-3.2.0-beta1.tar.bz2</a><br>
+	<a href="files/libmikmod-3.2.0-beta1.tar.gz">libmikmod-3.2.0-beta1.tar.gz</a><br />
+	<a href="files/libmikmod-3.2.0-beta1.tar.bz2">libmikmod-3.2.0-beta1.tar.bz2</a><br />
 	<a href="files/libmikmod-3.2.0-beta1.zip">libmikmod-3.2.0-beta1.zip</a>
 	</td>
 	<td>Feb 2 2004</td>
@@ -112,9 +100,9 @@ da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 	Player_QueryVoices which made possible the dynamic panels in 
 	the version 3.2.2 of the player. See NEWS for more info.</td>
 	<td>
-	642k<br>
-	478k<br>
-	771k<br>
+	642k<br />
+	478k<br />
+	771k<br />
 	</td>
 </tr>
 
@@ -143,7 +131,7 @@ da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 	<td>477k</td>
 </tr>
 </table>
-<br>
+<br />
 Here are the md5 sums for all the files:
 <pre>
 C3d47fa13a86dd4cdffa3165bac850bb  libmikmod-3.2.0-beta1.tar.gz
@@ -164,11 +152,7 @@ a096e8258410459189ff535111887ff1  mikmod-3.0.3.tar.gz
 </pre>
 [% PROCESS block_after %]
 
-<p align="right">
-<a href="http://mikmod.raphnet.net">
-Back to MikMod Homepage
-</a>
-</p>
+[% PROCESS link_to_top %] 
 
 [% PROCESS "footer.tt2" %]
 

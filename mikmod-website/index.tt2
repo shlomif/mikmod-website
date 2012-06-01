@@ -1,26 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE
-    html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="author" content="Raphael Assenat" />
-<meta name="keywords" content="MikMod, libMikmod, mikmod, libmikmod, music,
-player, unix, linux, 669, amf, dsm, far, gdb, imf, it, med, mod, mtm, s3m, stm, stx, ult,
-xm" />
-<meta name="description" content="MikMod Homepage" />
-<style type="text/css">
-    body { background-color: #efefef; }
-    .logo { text-align: left; }
-    .wrap { background-color: #ffffef; }
-    .to_top, .r { text-align: right; }
-</style>
-<title>MikMod homepage</title>
-</head>
-<body>
-
 [% PROCESS "blocks.tt2" %]
+[% SET title = 'MikMod homepage' %]
+[% PROCESS start_html %]
 <div>
 <img src="mikmod.png" alt="mikmod logo" class="logo" />
 </div>
