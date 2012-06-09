@@ -15,6 +15,7 @@ my $template = Template->new(
         INCLUDE_PATH => ".",
         POST_CHOMP => 1,
         RELATIVE => 1,
+        ENCODING => 'utf8',
     }
 );
 

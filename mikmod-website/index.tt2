@@ -41,10 +41,10 @@ such as Unix, Macintosh, BeOS, and Java(!!)
 Mikmod main authors are Jean-Paul Mikkers (MikMak), Jake Stine (Air
 Richter) and Frank Loemker. Steve McIntyre was the first Unix maintainer,
 followed by Peter Amstutz, Miodrag Vallat and finally 
-Rapha&euml;l Ass&eacute;nat.
+Raphaël Assénat.
 </p>
 <p>
-Unfortunately, since Rapha&euml;l Ass&eacute;nat
+Unfortunately, since Raphaël Assénat
 did not have enough free time to work on
 MikMod those days, releases somewhat came to an halt. This is why he handed 
 the baton to me (Shlomi Fish) in order to add 
@@ -165,7 +165,7 @@ file selector and the theme editor added in mikmod 3.2.2:<br />
 <a href="images/mikmod-3.2.2-filechooser.png"><img src="images/th_mikmod-3.2.2-filechooser.png" alt="filechooser screenshot" /></a>
 <a href="images/mikmod-3.2.2-theme-editor.png"><img src="images/th_mikmod-3.2.2-theme-editor.png" alt="theme editor screenshot" /></a>
 <br />
-(libmikmod &#62;= 3.2.0 required for dynamic samples panel, dynamic instruments panel and volume bars panel).
+(libmikmod &gt;= 3.2.0 required for dynamic samples panel, dynamic instruments panel and volume bars panel).
 </p>
 <p>
 Here is a screenshot of the new color interface in version 3.2.0:<br />
