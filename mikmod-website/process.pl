@@ -44,7 +44,7 @@ while (my $result = $tree->next_obj())
         my $basename = $result->basename;
         if ($basename =~ s/\.tt2\z/.php/)
         {
-            $template->process($result->path(), $vars, 
+            $template->process($result->path(), $vars,
                 File::Spec->catfile(File::Spec->curdir(), "dest",
                     @{$result->dir_components()}, $basename)
             )
