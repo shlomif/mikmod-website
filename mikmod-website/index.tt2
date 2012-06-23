@@ -57,6 +57,14 @@ new features, fix bugs and bring the project further.<br />
 [% PROCESS block_before %]
 
 <p>
+<b>Sat Jun 23 2012:</b>
+The mikmod player 3.2.2 (FINAL) was released. It sports a new color interface
+by Andrew Zabolotny, with themese, a file selector, recursive directry scanning
+and a threaded player. See NEWS for more details.
+
+</p>
+
+<p>
 <b>Fri Jun 01 2012:</b>
 libmikmod-3.2.0 (FINAL) was released. This release allows the ALSA driver
 to play PCM streams along with other ALSA-using programs, including several
@@ -64,7 +72,7 @@ instances of the mikmod player. There are many more improvements in comparison
 to libmikmod-3.1.11, which was the last stable release, including
 a Mac OS X CoreAudio driver, a loader for .amf modules, and support for
 recent ALSAs. Now, we are planning
-to concentrate our efforts in converting the build system to 
+to concentrate our efforts in converting the build system to
 <a href="http://www.cmake.org/">CMake</a> for the next libmikmod stable release.
 </p>
 
@@ -196,7 +204,7 @@ For binary releases, visit the
 <a href="binaries.php">binary releases</a> page 
 for official and unofficial binaries.<br />
 
-For previous releases, visit the 
+For previous releases, visit the
 <a href="old_releases.php">previous releases</a> page.
 </p>
 <table border="1" summary="Available files for download">
@@ -211,21 +219,17 @@ For previous releases, visit the
 </tr>
 <tr>
 	<td>
-	<a href="files/mikmod-3.2.2-beta1.tar.gz">mikmod-3.2.2-beta1.tar.gz</a><br />
-	<a href="files/mikmod-3.2.2-beta1.tar.bz2">mikmod-3.2.2-beta1.tar.bz2</a><br />
-	<a href="files/mikmod-3.2.2-beta1.zip">mikmod-3.2.2-beta1.zip</a>
+	<a href="files/mikmod-3.2.2.tar.gz">mikmod-3.2.2.tar.gz</a><br />
 	</td>
-	<td>2 Feb 2004</td>
+	<td>23 Jun 2012</td>
 	<td>
-	New color interface by Andrew Zabolotny, with themes (built-in editor), 
-	file selector, recursive directory scannning, threaded player. If
+	New color interface by Andrew Zabolotny, with themes (built-in editor),
+	file selector, recursive directory scanning, threaded player. If
 	built with libmikmod-3.2.0, samples and instrument panels are dynamic,
 	and there is a new volume bar panel. See NEWS for more details.
 	</td>
 	<td>
-		279k<br />
-		208k<br />
-		335k<br />
+		260k<br />
 	</td>
 </tr>
 <tr>
