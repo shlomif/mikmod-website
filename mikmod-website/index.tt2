@@ -40,14 +40,14 @@ such as Unix, Macintosh, BeOS, and Java(!!)
 <p>
 Mikmod main authors are Jean-Paul Mikkers (MikMak), Jake Stine (Air
 Richter) and Frank Loemker. Steve McIntyre was the first Unix maintainer,
-followed by Peter Amstutz, Miodrag Vallat and finally 
+followed by Peter Amstutz, Miodrag Vallat and finally
 Raphaël Assénat.
 </p>
 <p>
 Unfortunately, since Raphaël Assénat
 did not have enough free time to work on
-MikMod those days, releases somewhat came to an halt. This is why he handed 
-the baton to me (Shlomi Fish) in order to add 
+MikMod those days, releases somewhat came to an halt. This is why he handed
+the baton to me (Shlomi Fish) in order to add
 new features, fix bugs and bring the project further.<br />
 </p>
 [% PROCESS block_after %]
@@ -100,28 +100,28 @@ for download) with many fixes and improvements.
 <p>
 <a href="http://www.sourceforge.net"><img src="sflogo.png" class="r" alt="sourceforge logo" /></a>
 <b>Tue Apr 12 2005:</b>
-libmikmod development 
-<a href="#cvs">CVS</a> is now hosted on 
+libmikmod development
+<a href="#cvs">CVS</a> is now hosted on
 <a href="http://sourceforge.net/projects/mikmod/">
 sourceforge.</a>
 </p>
 
 <p>
 <b>Wed Feb 16:</b>
-The voting period for the logo contest is now over. The winner is #13, by <a href="http://www.doubledev.com">Andre Bommele (a.k.a. SnipeZ / N.D. Ray)</a>. I received 10 logos from 4 different persons(not including logos I fetched from previous mikmod websites). Thank 
+The voting period for the logo contest is now over. The winner is #13, by <a href="http://www.doubledev.com">Andre Bommele (a.k.a. SnipeZ / N.D. Ray)</a>. I received 10 logos from 4 different persons(not including logos I fetched from previous mikmod websites). Thank
 you to everyone who submitted logos and voted.
 </p>
-Contest entries and the number of votes they received are listed on 
+Contest entries and the number of votes they received are listed on
 the <a href="http://mikmod.raphnet.net/logo_submissions.php"> Logo submissions page.</a>
 <p>
 <b>Wed Jan 12:</b>
-The logo contest is over, it is now time to choose which logo is the best. The voting 
-period will end on Februray 12 (one month period). Each logo has been given a number. 
+The logo contest is over, it is now time to choose which logo is the best. The voting
+period will end on Februray 12 (one month period). Each logo has been given a number.
 To vote for your favorite, write to raph@raphnet.net with a subject in the '[CONTEST] number'
 format,
 'number' being the number of your favorite logo.<br />
 <br />
-Contest entries are on the <a href="http://mikmod.raphnet.net/logo_submissions.php"> 
+Contest entries are on the <a href="http://mikmod.raphnet.net/logo_submissions.php">
 Logo submissions page.</a>
 </p>
 <p>
@@ -137,7 +137,7 @@ For older news, see the <a href="old_news.php">older news page</a>.<br />
 <h2 id="features">Features</h2>
 [% PROCESS block_before %]
 <ul>
-	<li>Support for the following modules formats:<br /> 
+	<li>Support for the following modules formats:<br />
 	<b>669</b> (Composer 669, Unis 669), <b>AMF</b> (DSMI Advanced Module Format),
 	<b>AMF</b> (ASYLUM Music Format V1.0), <b>APUN</b> (APlayer),
 	<b>DSM</b> (DSIK internal format), <b>FAR</b> (Farandole Composer),
@@ -148,7 +148,7 @@ For older news, see the <a href="old_news.php">older news page</a>.<br />
 	<b>STM</b> (Scream Tracker), <b>STX</b> (Scream Tracker Music Interface Kit),
 	<b>ULT</b> (UltraTracker), <b>UNI</b> (MikMod), <b>XM</b> (FastTracker 2)
 	</li>
-	<li>Can play files in archives formats: zip, lha, lzh, zoo, rar, gz, bz2, tar, 
+	<li>Can play files in archives formats: zip, lha, lzh, zoo, rar, gz, bz2, tar,
 tar.gz and tar.bz2</li>
 	<li>Curses player interface. With optional color and themes.</li>
 	<li>Playlist support.</li>
@@ -166,7 +166,7 @@ tar.gz and tar.bz2</li>
 <h2 id="screenshots">Screenshots</h2>
 [% PROCESS block_before %]
 <p>
-Here are screenshots of the dynamic sample and instruments panels, volume bars panel, 
+Here are screenshots of the dynamic sample and instruments panels, volume bars panel,
 file selector and the theme editor added in mikmod 3.2.2:<br />
 <a href="images/mikmod-3.2.2-dynsamp.png"><img src="images/th_mikmod-3.2.2-dynsamp.png" alt="dynamic sample panel screenshot thumnail" /></a>
 <a href="images/mikmod-3.2.2-volbars.png"><img src="images/th_mikmod-3.2.2-volbars.png" alt="volume bars panel screenshot thumnail" /></a>
@@ -187,9 +187,9 @@ Here is a screenshot of the new color interface in version 3.2.0:<br />
 <h2 id="license">License</h2>
 [% PROCESS block_before %]
 <p>
-libmikmod is released under the terms of the 
+libmikmod is released under the terms of the
 <a href="http://www.gnu.org/copyleft/lesser.html">GNU Lesser General Public License (LGPL).</a><br />
-mikmod is released under the terms of the 
+mikmod is released under the terms of the
 <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License (GPL).</a><br />
 </p>
 [% PROCESS block_after %]
@@ -199,9 +199,9 @@ mikmod is released under the terms of the
 <h2 id="files">Files</h2>
 [% PROCESS block_before %]
 <p>
-Releases here are source only.<br /> 
-For binary releases, visit the 
-<a href="binaries.php">binary releases</a> page 
+Releases here are source only.<br />
+For binary releases, visit the
+<a href="binaries.php">binary releases</a> page
 for official and unofficial binaries.<br />
 
 For previous releases, visit the
@@ -244,7 +244,7 @@ For previous releases, visit the
 </tr>
 <tr>
     <td>
-    <a href="files/libmikmod-3.2.0.tar.gz">libmikmod-3.2.0.tar.gz</a> 
+    <a href="files/libmikmod-3.2.0.tar.gz">libmikmod-3.2.0.tar.gz</a>
     </td>
 	<td>Jun 01 2012</td>
     <td>Final version 3.2.0 of libmikmod.</td>
@@ -288,7 +288,7 @@ All current and previous releases can also be downloaded via ftp:<br />
 <h2 id="cvs">Version Control</h2>
 [% PROCESS block_before %]
 <p>
-libmikmod and mikmod's sources are available from its 
+libmikmod and mikmod's sources are available from its
 <a href="http://sourceforge.net/scm/?type=hg&amp;group_id=40531">Mercurial
 repository</a>. In order to checkout the sources by cloning the repository,
 use the following command:
@@ -300,7 +300,7 @@ hg clone http://mikmod.hg.sourceforge.net:8000/hgroot/mikmod/mikmod (read-only)
 
 <p>
 The sources for this site are available on
-<a href="https://bitbucket.org/shlomif/mikmod-website">a different Mercurial 
+<a href="https://bitbucket.org/shlomif/mikmod-website">a different Mercurial
 repository</a> hosted at bitbucket.org.
 </p>
 
@@ -330,14 +330,14 @@ And here is the latest doc in pdf format:
 There is a now a mailing list available for those who would like
 to be notified when there are new (lib)mikmod releases available.<br />
 <br />
-To subscribe, send a mail to 
+To subscribe, send a mail to
 <a href="mailto:mikmod-announce-request@raphnet.net">
 mikmod-announce-request@raphnet.net
 </a>
 containing the word <b>SUBSCRIBE</b> in the body.<br />
 <br />
 This is a very low volume mailing list where users are *not* allowed
-to post. I will probably create more mailing lists, such as mikmod-user 
+to post. I will probably create more mailing lists, such as mikmod-user
 and mikmod-devel, eventually.
 </p>
 [% PROCESS block_after %]
@@ -350,8 +350,8 @@ and mikmod-devel, eventually.
 <h2 id="tools">Tools</h2>
 [% PROCESS block_before %]
 <p>
-Here are two bash scripts to download random songs from 
-<a href="http://www.modarchive.com">www.modarchive.com</a> (using their <i>Random Song</i> url), 
+Here are two bash scripts to download random songs from
+<a href="http://www.modarchive.com">www.modarchive.com</a> (using their <i>Random Song</i> url),
 and save them and play them in mikmod. They require wget to work. Simply put them in a
 directory where you have write permissions, and run them from there. <br />
 <br />
@@ -443,7 +443,7 @@ http://scripts.one.pl/tclmod</a>
 than 28k compressed files.<br />
 </p>
 <p>
-<a href="http://www.mirsoft.info/gamemods.php">www.mirsoft.info/gamemods.php</a> 
+<a href="http://www.mirsoft.info/gamemods.php">www.mirsoft.info/gamemods.php</a>
 If you appreciate game music as much as I do, you will be pleased with all the
 good old game tunes available on this website.
 </p>
