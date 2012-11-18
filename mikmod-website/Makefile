@@ -1,4 +1,4 @@
-RSYNC_EXTRA_OPTS = 
+RSYNC_EXTRA_OPTS =
 
 all:
 	perl process.pl
