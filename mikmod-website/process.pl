@@ -46,11 +46,16 @@ while (my $result = $tree->next_obj())
         {
             $template->process($result->path(), $vars,
                 File::Spec->catfile(File::Spec->curdir(), "dest",
-                    @{$result->dir_components()}, $basename)
+                    @{$result->dir_components()}, $basename),
+                binmode => ':utf8',
             )
                 or die $template->error();
         }
-        elsif ($basename !~ /~\z/)
+        elsif (
+            $basename !~ /~\z/
+            && ( !($basename =~ /\A\./ && $basename =~ /\.swp\z/) )
+            && ($basename ne 'process.pl')
+        )
         {
             copy($result->path,
                 File::Spec->catfile(File::Spec->curdir(), "dest",
