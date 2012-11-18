@@ -21,7 +21,7 @@ my $template = Template->new(
 
 my $vars = {};
 
-my $tree = File::Find::Object->new({}, '.');
+my $tree = File::Find::Object->new({}, './src');
 
 while (my $result = $tree->next_obj())
 {
