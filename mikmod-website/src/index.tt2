@@ -57,6 +57,19 @@ new features, fix bugs and bring the project further.<br />
 [% PROCESS block_before %]
 
 <p>
+<b>Thu Dec 96 2912:</b>
+The first beta of libmikmod-3.3.x - libmikmod-3.3.1 is out. Eventually, it
+will lead to the stable libmikmod-3.4.0. The highlight of this release is the
+conversion of the build system from GNU Autotools to CMake. Some of the GNU
+Autotools files were kept in the distribution for reference, but they should not
+be used and will likely be removed before the final release. It is more than
+likely that the CMake build does not support most of the various old drivers
+yet, but this should be easy to add for people with access to such systems
+and some CMake Tuits. This release also features a pkg-config
+<tt>libmikmod.pc</tt> file.
+</p>
+
+<p>
 <b>Sat Jun 23 2012:</b>
 The mikmod player 3.2.2 (FINAL) was released. It sports a new color interface
 by Andrew Zabolotny, with themese, a file selector, recursive directry scanning
@@ -252,6 +265,20 @@ For previous releases, visit the
 <pre>
 96e9820d72a41fe27ff304071739696c - MD5
 734c8490bbf9b0c587920b92414dcfa3c2267838a0cdf698d5f1fb6bba8f661e - SHA-256.
+</pre>
+</td>
+</tr>
+<tr>
+    <td>
+    <a href="files/libmikmod-3.3.1.tar.bz2">libmikmod-3.3.1.tar.bz2</a>
+    </td>
+	<td>Dec 06 2012</td>
+    <td>Beta version of libmikmod, sporting a CMake-based buildsystem and
+    a "libmikmod.pc" pkg-config file.</td>
+    <td>Checksums:<br/>
+<pre>
+021e2b307612e1cec45809614ede0664 - MD5
+a5b0ce757b49ef0c67b93caf4209e5fd3597542222dc994273df9fe5fae3fadd - SHA-256.
 </pre>
 </td>
 </tr>
