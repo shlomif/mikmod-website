@@ -104,9 +104,11 @@ C++ and other compilers.
 <b>Sun Apr 08 2012:</b>
 libmikmod and mikmod development now has been resumed by Shlomi Fish. The
 sources were moved to
-<a href="ssh://shlomif@mikmod.hg.sourceforge.net/hgroot/mikmod/mikmod">a
+<a href="http://sourceforge.net/p/mikmod/mercurial/ci/default/tree/">a
 Mercurial repository hosted on SourceForge.net</a> and the sources of this
-site are now maintained in <a href="https://bitbucket.org/shlomif/mikmod-website">a different repository</a>. libmikmod-3.2.0-beta3 was released (see below
+site are now maintained in
+<a href="https://bitbucket.org/shlomif/mikmod-website">a
+different repository</a>. libmikmod-3.2.0-beta3 was released (see below
 for download) with many fixes and improvements.
 </p>
 
@@ -316,13 +318,13 @@ All current and previous releases can also be downloaded via ftp:<br />
 [% PROCESS block_before %]
 <p>
 libmikmod and mikmod's sources are available from its
-<a href="http://sourceforge.net/scm/?type=hg&amp;group_id=40531">Mercurial
-repository</a>. In order to checkout the sources by cloning the repository,
-use the following command:
+<a href="http://sourceforge.net/p/mikmod/mercurial/ci/default/tree/">new
+Mercurial repository</a> (based on the new SourceForge interface). In order to
+checkout the sources by cloning the repository, use the following command:
 </p>
 
 <pre>
-hg clone http://mikmod.hg.sourceforge.net:8000/hgroot/mikmod/mikmod (read-only)
+hg clone http://hg.code.sf.net/p/mikmod/mercurial mikmod
 </pre>
 
 <p>
