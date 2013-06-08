@@ -95,9 +95,10 @@ of changes.
 </p>
 
 <p><b>Wed Jan 14:</b>
-A have searched on the web and on Linux distributions ftp sites to
-retrieve older versions on libmikmod and mikmod. This completes a little more
-the file section. Many versions are still missing though.
+I have searched on the Web and on Linux distributions FTP sites, in
+order to find older versions of libmikmod and mikmod. This makes
+the file section a little more complete. However, many versions are
+still missing.
 </p>
 <p><b>Tue Jan 13:</b>
 A <a href="http://packages.debian.org/unstable/sound/mikmod">debian package</a> 
