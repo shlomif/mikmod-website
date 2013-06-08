@@ -52,7 +52,7 @@
 </tr>
 <tr>
     <td>
-    <a href="files/libmikmod-3.2.0b4.tar.gz">libmikmod-3.2.0b4.tar.gz</a> 
+    <a href="files/libmikmod-3.2.0b4.tar.gz">libmikmod-3.2.0b4.tar.gz</a>
     </td>
     <td>May 12 2012</td>
     <td>Fourth beta of version 3.2.0 of libmikmod - includes an updated ALSA
@@ -82,8 +82,8 @@ da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 	<a href="files/libmikmod-3.2.0-beta2.zip">libmikmod-3.2.0-beta2.zip</a>
 	</td>
 	<td>Feb 20 2004</td>
-	<td>Second beta of version of libmikmod. This release includes a new AIFF 
-	disk writer, better MacOS X support, new macintosh project files for 
+	<td>Second beta of version of libmikmod. This release includes a new AIFF
+	disk writer, better MacOS X support, new macintosh project files for
 	Codewarrior 5/6 and Apple's MPW, and fixes for compilation under Solaris.</td>
 	<td>
 	743k<br />
@@ -99,9 +99,9 @@ da0c4fcfc5ca15c653baeb62b8cf91b35cfa11c1081a1aacc1e443a7d35db870 - SHA-256.
 	<a href="files/libmikmod-3.2.0-beta1.zip">libmikmod-3.2.0-beta1.zip</a>
 	</td>
 	<td>Feb 2 2004</td>
-	<td>First beta version of libmikmod. Adds MacOSX CoreAudio driver, 
-	Carbon support, a loader for ASYLUM .amf files and the 
-	Player_QueryVoices which made possible the dynamic panels in 
+	<td>First beta version of libmikmod. Adds MacOSX CoreAudio driver,
+	Carbon support, a loader for ASYLUM .amf files and the
+	Player_QueryVoices which made possible the dynamic panels in
 	the version 3.2.2 of the player. See NEWS for more info.</td>
 	<td>
 	642k<br />
@@ -156,7 +156,7 @@ a096e8258410459189ff535111887ff1  mikmod-3.0.3.tar.gz
 </pre>
 [% PROCESS block_after %]
 
-[% PROCESS link_to_top %] 
+[% PROCESS link_to_top %]
 
 [% PROCESS "footer.tt2" %]
 

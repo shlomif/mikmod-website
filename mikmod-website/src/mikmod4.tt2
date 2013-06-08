@@ -9,15 +9,15 @@
 <h2>Overview:</h2>
 <p>
 The mikmod player is a curses based text mode player, which relies on libmikmod
-to play module music. 
-The user interface is very functional and efficient. 
+to play module music.
+The user interface is very functional and efficient.
 Files are loaded by libmikmod, sound output is handled by libmikmod
 and playback is also handled by libmikmod.
 </p>
 <p>
-The time when I only needed to listen to module music is gone. People often 
-release their compos as mp3 or ogg. I like to listen to video game music in 
-their own format (spc, nsf, sid, gym, psf...). I became upset of being forced 
+The time when I only needed to listen to module music is gone. People often
+release their compos as mp3 or ogg. I like to listen to video game music in
+their own format (spc, nsf, sid, gym, psf...). I became upset of being forced
 to exit mikmod when I wanted to listen to other formats.
 </p>
 <p>
@@ -29,8 +29,8 @@ Mikmod player version 4 will add support for more music formats using a plugin a
 <a href="http://www.xmms.org/">xmms</a> uses plugins.<br>
 <a href="http://foobar2000.org/">foobar2000</a> uses plugins.<br>
 Why? Because plugins are good for various reasons. It sorts of impose
-a modular desing to the application. Also, users can improve the player 
-by adding support for new type of music or output without messing 
+a modular desing to the application. Also, users can improve the player
+by adding support for new type of music or output without messing
 with the player code.<br>
 <br>
 Planned plugins are:<br>
@@ -51,7 +51,7 @@ In the first release, there will be input and output plugins. Visualisation and 
 <h3>Useful features:</h3>
 <ul>
 	<li>Silence detection. Some file formats do not provide information on the duration
-	of the tune. This feature will detect when a long silence period(configurable 
+	of the tune. This feature will detect when a long silence period(configurable
 	length) occurs and assume the end of the song is reached.</li>
 	<li>Fadeout. Automatic fadeout at the end of songs, or fadeout according to hints
 	from the input plugin.</li>
@@ -70,13 +70,13 @@ The new mikmod player is far from being finished. There are still a lot of thing
 	<li>Handling of plugin configuration (save/load from rcfile)</li>
 	<li>Configuration of plugins from within the gui</li>
 	<li><strike>Remove dependence of the player on mikmod header files for
-	data types, and uses standard portable types. (some system 
+	data types, and uses standard portable types. (some system
 	header? Our own type header?)</strike> (Done, Feb 27 2005)</li>
 	<li>Finish mad based mp3 plugin (file and url support)</li>
 	<li>Optimise audio conversion code (direct conversion from source
 	to destination formats instead of using intermediate 32bit format.
 	</li>
-	<li>Add a way to control the sound card volume</li>	
+	<li>Add a way to control the sound card volume</li>
 	</li>
 	<li>Integrate input plugins in automake/configure setup instead of
 	letting them be compiled separately.</li>
